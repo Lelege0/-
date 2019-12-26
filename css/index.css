@@ -1,0 +1,834 @@
+@charset "UTF-8";
+html {
+    font: 12px '宋体';
+}
+
+a {
+    color: #000;
+}
+
+.top {
+    background-color: #f7f7f7;
+    height: 26px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.top_page {
+    width: 970px;
+    height: 26px;
+    margin: 0 auto;
+}
+
+.top_page_l {
+    line-height: 26px;
+}
+
+.top_page_r ul li {
+    float: left;
+    /*margin-left: 10px;*/
+    padding-left: 10px;
+    line-height: 26px;
+}
+
+.top_page_r ul li s {
+    width: 14px;
+    height: 12px;
+    background: url(../image/spirte.png); /*../表示跳出css文件*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 970px;
+    height: 98px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+
+.logo_l {
+    width: 200px;
+    height: 55px;
+    /*background: red;*/
+    margin: 24px 0 19px 9px;
+    background: url(../image/spirte.png) -20px 0;
+    text-indent: -1000em;
+}
+
+.logo_r {
+    width: 530px;
+    height: 42px;
+    border: 1px solid #c9c9c9;
+    margin-top: 29px;
+}
+
+.logo_r_content {
+    margin: 5px 5px 5px 4px;
+}
+
+.logo_r_search {
+    width: 418px;
+    height: 28px;
+    border: 1px solid #c9c9c9;
+    color: #999999;
+}
+
+.logo_r_btn {
+    width: 99px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: #2F70D0;
+}
+
+.nav {
+    width: 970px;
+    height: 25px;
+    margin: 0 auto;
+    border-bottom: 2px solid #0266A3;
+}
+
+.nav li {
+    float: left;
+    /*display: inline;*/
+    padding: 0 15px 0 15px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold; /*字体加粗*/
+}
+
+.nav li a {
+    color: #0266A3;
+}
+
+.nav li:hover {
+    background-color: #0266A3;
+}
+
+.nav li:hover a {
+    color: white;
+}
+
+.banner {
+    width: 970px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.subNav {
+    width: 200px;
+    height: 210px;
+    margin-right: 11px;
+}
+
+.ad {
+    width: 520px;
+    height: 210px;
+    background-color: red;
+}
+
+.message {
+    width: 230px;
+    height: 210px;
+}
+
+.subNav h2 {
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0266A3;
+    color: white;
+}
+
+.s1 {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url(../image/spirte.png) -220px 0;
+    vertical-align: middle;
+}
+
+.s2 {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url(../image/spirte.png) -240px 0;
+    vertical-align: middle;
+}
+
+.s3 {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url(../image/spirte.png) -262px 0;
+    vertical-align: middle;
+}
+
+.s4 {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url(../image/spirte.png) -284px 0;
+    vertical-align: middle;
+}
+
+.s5 {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url(../image/spirte.png) -302px 0;
+    vertical-align: middle;
+}
+
+.s6 {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background: url(../image/spirte.png) -323px 0;
+    vertical-align: middle;
+}
+
+.subNav li {
+    font-size: 15px;
+    padding-top: 11px;
+    margin-left: 9px;
+}
+
+.subNav li a {
+    padding-left: 15px;
+}
+
+.subNav ul {
+    background: #EBF0F6;
+    height: 180px;
+}
+
+.ad {
+    width: 520px;
+    height: 210px;
+    background: url(../image/spirte.png) 0 -55px;
+    vertical-align: middle;
+}
+
+.message_top {
+    height: 95px;
+    border: 1px solid #DDDDDD;
+    background: #F7FAFF;
+    margin-bottom: 21px;
+}
+
+.message_top s {
+    margin: 20px 10px 0 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../image/spirte.png) 0 -265px;
+}
+
+.message_top .fw {
+    font-weight: bold;
+    padding: 7px 0 0 18px;
+}
+
+.message_top .cheap {
+    margin-top: 25px;
+}
+
+.message_bottom {
+    height: 92px;
+    background: #F7F7F7;
+}
+
+.message_bottom .findMessage {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 11px;
+}
+
+.message_bottom .phone s {
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background: url(../image/spirte.png) -44px 175px;
+    vertical-align: middle;
+}
+
+.message_bottom .phone {
+    margin-top: 10px;
+    text-align: center;
+    color: #3F9CE0;
+}
+
+.message_bottom .btn {
+    margin-top: 9px;
+    margin-left: 75px;
+    /*display: inline-block;*/
+    width: 81px;
+    height: 23px;
+    background: url(../image/spirte.png) -60px 175px;
+    vertical-align: middle;
+}
+
+.material {
+    width: 950px;
+    height: 34px;
+    border-top: 2px solid #c3d7e4;
+    margin: 0 auto;
+    margin-top: 14px;
+    line-height: 34px;
+    background: #ECF1F7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.product {
+    width: 970px;
+    height: 345px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border: 1px solid #D8D8D8;
+}
+
+.product .product_l {
+    width: 738px;
+    height: 345px;
+    border: 1px solid #D8D8D8;
+}
+
+.product .product_l_top {
+    height: 155px;
+    width: 712px;
+    padding: 17px 0 0 26px; /*上右下左*/
+
+}
+
+.product .p_l_t_product1 {
+    width: 350px;
+    height: 146px;
+}
+
+.product .buy {
+    width: 99px;
+    height: 143px;
+}
+
+.product .buy .img {
+    height: 100px;
+    border: 1px solid #cacaca;
+}
+
+.product .product_l .p_l_t_product1 .buy .img s {
+    display: inline-block;
+    width: 90px;
+    height: 62px;
+    background: url(../image/spirte.png) -520px 0;
+    margin: 10px 4px 0 3px;
+}
+
+.product .buy .buy_btn input {
+    width: 99px;
+    height: 26px;
+    background-color: #0A84E3;
+    color: white;
+    margin-top: 15px;
+}
+
+.product .explain {
+    width: 250px;
+    height: 143px;
+}
+
+.product .explain .goodwife {
+    font-size: 13px;
+    padding: 10px 0 0 10px;
+}
+
+.product .explain .auto {
+    color: #863E01;
+    padding: 13px 0 0 15px;
+}
+
+.product .explain .money span {
+    color: red;
+}
+
+.product .explain .money {
+    padding: 23px 0 0 11px;
+}
+
+.product .explain .money s {
+    text-decoration: line-through;
+}
+
+.product .explain .bought {
+    font-size: 13px;
+    padding: 28px 0 0 11px;
+}
+
+.product .product_r {
+    width: 220px;
+    height: 345px;
+    border: 1px solid #E0E6F0;
+}
+
+.product_l_line {
+    margin: 0 4px 0 4px;
+    border-top: 1px solid #CCC;
+}
+
+.product .product_l .p_l_t_product2 .buy .img s {
+    display: inline-block;
+    width: 90px;
+    height: 62px;
+    background: url(../image/spirte.png) -520px -63px;
+    margin: 10px 4px 0 3px;
+}
+
+.product .explain1 .weiershu {
+    font-size: 13px;
+    padding: 10px 0 0 10px;
+}
+
+.product .explain1 .auto1 {
+    color: #863E01;
+    padding: 13px 0 0 15px;
+}
+
+.product .explain1 .money1 span {
+    color: red;
+}
+
+.product .explain1 .money1 {
+    padding: 23px 0 0 11px;
+}
+
+.product .explain1 .money1 s {
+    text-decoration: line-through;
+}
+
+.product .explain1 .bought1 {
+    font-size: 13px;
+    padding: 28px 0 0 11px;
+}
+
+.product .product_l .p_l_t_product3 .buy .img s {
+    display: inline-block;
+    width: 90px;
+    height: 62px;
+    background: url(../image/spirte.png) -520px -129px;
+    margin: 10px 4px 0 3px;
+}
+
+.product .explain2 .haoyida {
+    font-size: 13px;
+    padding: 10px 0 0 10px;
+}
+
+.product .explain2 .auto2 {
+    color: #863E01;
+    padding: 13px 0 0 15px;
+}
+
+.product .explain2 .money2 span {
+    color: red;
+}
+
+.product .explain2 .money2 {
+    padding: 23px 0 0 11px;
+}
+
+.product .explain2 .money2 s {
+    text-decoration: line-through;
+}
+
+.product .explain2 .bought2 {
+    font-size: 13px;
+    padding: 28px 0 0 11px;
+}
+
+.product .product_l .p_l_t_product4 .buy .img s {
+    display: inline-block;
+    width: 90px;
+    height: 62px;
+    background: url(../image/spirte.png) -520px -193px;
+    margin: 10px 4px 0 3px;
+}
+
+.product .explain3 .gw {
+    font-size: 13px;
+    padding: 10px 0 0 10px;
+}
+
+.product .explain3 .auto3 {
+    color: #863E01;
+    padding: 13px 0 0 15px;
+}
+
+.product .explain3 .money3 span {
+    color: red;
+}
+
+.product .explain3 .money3 {
+    padding: 23px 0 0 11px;
+}
+
+.product .explain3 .money3 s {
+    text-decoration: line-through;
+}
+
+.product .explain3 .bought3 {
+    font-size: 13px;
+    padding: 28px 0 0 11px;
+}
+
+.product .p_l_t_product3 {
+    width: 350px;
+    height: 146px;
+}
+
+.product_r .p_r_t h2 {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 15px;
+    border-bottom: 1px solid #E0E6F0;
+}
+
+.product_r .list ul {
+    padding-top: 11px;
+}
+
+.product_r .list ul li {
+    line-height: 23px;
+    padding-left: 20px;
+}
+
+.product_r .list ul li s {
+    width: 5px;
+    height: 5px;
+    background: url(../image/spirte.png) -223px -15px; /*../表示跳出css文件*/
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 5px 5px 6px;
+}
+
+.product .product_r_2 {
+    width: 220px;
+    height: 345px;
+    border: 1px solid #E0E6F0;
+}
+
+.product_r_2 .ig {
+    width: 220px;
+    height: 30%;
+}
+
+.product_r_2 .ig .photo {
+    width: 40%;
+    height: 100%;
+}
+
+.product_r_2 .ig .photo s {
+    margin-top: 20px;
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    background: url(../image/spirte.png) -140px 175px;
+    padding-right: 1px;
+}
+
+.product_r_2 .ig .dec {
+    width: 60%;
+    height: 100%;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #A377A3;
+    margin-left: 0;
+    line-height: 150%;
+    text-align: center;
+}
+
+.product_r_2 .list ul {
+    padding-top: 8px;
+}
+
+.product_r_2 .list ul li {
+    line-height: 23px;
+    padding-left: 0;
+}
+
+.product_r_2 .list ul li span {
+    color: #B39BB0;
+}
+
+.product_r_2 .p_r_t_2 h2 {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 15px;
+    border-bottom: 1px solid #E0E6F0;
+}
+
+.zy {
+    width: 970px;
+    height: 500px;
+    /*background-color: teal;*/
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+.zy .zy_top {
+    width: 950px;
+    height: 53px;
+    border-top: 2px solid #C3DEE4;
+    background: #ECF1F7;
+    line-height: 53px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.zy .zy_bottom .zy_b_l {
+    width: 728px;
+    height: 430px;
+    border: 1px solid #CACACA;
+}
+
+.zy .zy_bottom .zy_b_l .p_top {
+    width: 710px;
+    height: 40px;
+    background: yellowgreen;
+    color: #E4F5FB;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 13px 0 0 20px;
+}
+
+.zy .zy_bottom .zy_b_l .p_bottom_1 {
+    width: 170px;
+    height: 372px;
+    margin: 5px 10px 0 10px;
+}
+
+.zy .zy_bottom .zy_b_l .p_bottom_2 {
+    width: 170px;
+    height: 372px;
+    margin: 5px 10px 0 0;
+}
+
+.zy .zy_bottom .zy_b_l .p_bottom_3 {
+    width: 170px;
+    height: 372px;
+    margin: 5px 10px 0 0;
+}
+
+.zy .zy_bottom .zy_b_l .p_bottom_4 {
+    width: 170px;
+    height: 372px;
+    margin-top: 5px;
+}
+
+.zy .p_b_1_top {
+    width: 80%;
+    height: 65%;
+}
+
+.zy .p_b_1_top s {
+    width: 170px;
+    height: 185px;
+    display: inline-block;
+    background: url(../image/spirte2.png) 0px 5px;
+    vertical-align: middle;
+}
+
+.zy .p_b_1_top .p_b_1_link {
+    height: 172px;
+    width: 136px;
+    /*line-height: 172px;*/
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.zy .p_b_1_top .p_b_1_link s {
+    text-decoration: line-through;
+}
+
+.zy .p_b_1_top .p_b_1_link span {
+    color: red;
+}
+
+.zy .p_b_2_top {
+    width: 80%;
+    height: 65%;
+}
+
+.zy .p_b_2_top s {
+    width: 170px;
+    height: 185px;
+    display: inline-block;
+    background: url(../image/spirte2.png) -171px 0px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.zy .p_b_2_top .p_b_2_link {
+    height: 172px;
+    width: 136px;
+    line-height: 172px;
+    color: #FFFFFF;
+}
+
+.zy .p_b_2_top .p_b_2_link s {
+    text-decoration: line-through;
+}
+
+.zy .p_b_2_top .p_b_2_link span {
+    color: red;
+}
+
+.zy .p_b_3_top {
+    width: 80%;
+    height: 65%;
+}
+
+.zy .p_b_3_top s {
+    width: 170px;
+    height: 185px;
+    display: inline-block;
+    background: url(../image/spirte2.png) -344px 0px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.zy .p_b_3_top .p_b_3_link {
+    height: 172px;
+    width: 136px;
+    line-height: 172px;
+    color: #FFFFFF;
+}
+
+.zy .p_b_3_top .p_b_3_link s {
+    text-decoration: line-through;
+}
+
+.zy .p_b_3_top .p_b_3_link span {
+    color: red;
+}
+
+.zy .p_b_1_top {
+    width: 80%;
+    height: 65%;
+}
+
+.zy .p_b_4_top s {
+    width: 170px;
+    height: 185px;
+    display: inline-block;
+    background: url(../image/spirte2.png) 0px 5px;
+    vertical-align: middle;
+}
+
+.zy .p_b_4_top p{
+    height: 172px;
+    width: 136px;
+    line-height: 172px;
+    color: #FFFFFF;
+}
+
+.zy .p_b_4_top .p_b_4_link s {
+    text-decoration: line-through;
+}
+
+.zy .p_b_4_top .p_b_4_link span {
+    color: red;
+}
+
+.zy .zy_bottom .zy_b_r {
+    width: 225px;
+    height: 430px;
+    margin-left: 15px;
+    background-color: #863E01;
+}
+
+.link {
+    width: 970px;
+    height: 103px;
+    margin: 0 auto;
+    margin-top: 11px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 3px solid #0A7EC3;
+}
+
+.link .link_1 li {
+    float: left;
+    padding-right: 8px;
+}
+
+.link .link_2 li {
+    float: left;
+    padding-right: 8px;
+}
+
+.link .link_1 li a {
+    color: #666666;
+}
+
+.link .link_2 li a {
+    color: #666666;
+}
+
+.link .link_1 {
+    margin-top: 30px;
+}
+
+.link .link_2 {
+    margin-top: 14px;
+    margin-left: 60px;
+}
+
+.aboutMe {
+    width: 970px;
+    height: 91px;
+    margin: 0 auto;
+}
+
+.aboutMe .aboutMe_1 ul li {
+    float: left;
+}
+
+.aboutMe .aboutMe_1 ul {
+    text-align: center;
+    width: 80%;
+
+}
+
+.aboutMe_2,
+.aboutMe_3,
+.aboutMe_1 {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.aboutMe_3 {
+    margin-top: 4px;
+}
+
+.aboutMe_1 {
+    padding: 0 14% 0 8%;
+}
+
+.aboutMe .aboutMe_1 ul li {
+    margin-top: 14px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.aboutMe .aboutMe_2 p {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.aboutMe .aboutMe_3 p {
+    text-align: center;
+}
